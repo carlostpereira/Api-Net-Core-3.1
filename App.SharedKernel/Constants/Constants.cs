@@ -1,0 +1,16 @@
+﻿namespace App.SharedKernel.Constants
+{
+    public static class Constants
+    {
+        public const string Char = "char";
+        public const string Varchar = "varchar";
+        public const string Datetime = "datetime";
+        public const string Money = "money";
+        public const string Decimal = "decimal(10,4)";
+        public const string Double = "float";
+        public const string Text = "text";
+        public const string Integer = "int";
+        public const string SmallInt = "smallint";
+        public const string Boolean = "bit";
+    }
+}

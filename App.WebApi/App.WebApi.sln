@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App.WebApi", "App.WebApi.csproj", "{12DDC509-BDC2-4AAA-8B5B-AD00BDA36472}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. API", "1. API", "{8DD494C4-C5D1-466A-ADE5-790A761754C2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{69B3D60E-7919-4778-B916-9F1D1A0AB9F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Infrastructure", "{CFF6EC5F-6393-4959-8B81-75B2578B68B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Shared", "4. Shared", "{105459E1-12BB-4BB8-8BBF-2335D718030F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Shared", "..\App.Shared\App.Shared.csproj", "{641A54FB-3F12-4038-B27C-36380E57446E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.SharedKernel", "..\App.SharedKernel\App.SharedKernel.csproj", "{8442E3D7-AA0C-4988-9A37-66CDFA33950D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Infrastructure", "..\App.Infrastructure\App.Infrastructure.csproj", "{EBB4307A-050C-44C9-A81C-6821EB6CC76D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Domain", "..\App.Domain\App.Domain.csproj", "{15053D47-FE94-409A-92E7-2F0B9DC3C426}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{12DDC509-BDC2-4AAA-8B5B-AD00BDA36472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12DDC509-BDC2-4AAA-8B5B-AD00BDA36472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12DDC509-BDC2-4AAA-8B5B-AD00BDA36472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12DDC509-BDC2-4AAA-8B5B-AD00BDA36472}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641A54FB-3F12-4038-B27C-36380E57446E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641A54FB-3F12-4038-B27C-36380E57446E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641A54FB-3F12-4038-B27C-36380E57446E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641A54FB-3F12-4038-B27C-36380E57446E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8442E3D7-AA0C-4988-9A37-66CDFA33950D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8442E3D7-AA0C-4988-9A37-66CDFA33950D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8442E3D7-AA0C-4988-9A37-66CDFA33950D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8442E3D7-AA0C-4988-9A37-66CDFA33950D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBB4307A-050C-44C9-A81C-6821EB6CC76D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBB4307A-050C-44C9-A81C-6821EB6CC76D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBB4307A-050C-44C9-A81C-6821EB6CC76D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBB4307A-050C-44C9-A81C-6821EB6CC76D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15053D47-FE94-409A-92E7-2F0B9DC3C426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15053D47-FE94-409A-92E7-2F0B9DC3C426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15053D47-FE94-409A-92E7-2F0B9DC3C426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15053D47-FE94-409A-92E7-2F0B9DC3C426}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12DDC509-BDC2-4AAA-8B5B-AD00BDA36472} = {8DD494C4-C5D1-466A-ADE5-790A761754C2}
+		{641A54FB-3F12-4038-B27C-36380E57446E} = {105459E1-12BB-4BB8-8BBF-2335D718030F}
+		{8442E3D7-AA0C-4988-9A37-66CDFA33950D} = {105459E1-12BB-4BB8-8BBF-2335D718030F}
+		{EBB4307A-050C-44C9-A81C-6821EB6CC76D} = {CFF6EC5F-6393-4959-8B81-75B2578B68B0}
+		{15053D47-FE94-409A-92E7-2F0B9DC3C426} = {69B3D60E-7919-4778-B916-9F1D1A0AB9F8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {514815D1-8666-4871-B921-B7EE1A8431B3}
+	EndGlobalSection
+EndGlobal
